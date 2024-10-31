@@ -19,19 +19,10 @@
 #include <string.h>
 
 
-#ifndef FINAL_SUBMISSION_RTC
-#define FINAL_SUBMISSION_RTC
 
+#ifndef NVS_LAB2_1_H
+#define NVS_LAB2_1_H
 
-
-
-    
-bool init_RTC();
-bool write_time_to_RTC(struct tm);
-struct tm read_time_from_RTC();
-bool stop_RTC();
-
-
-
-
+void init_RTC();
+void write_to_RTC();
 #endif
